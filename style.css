@@ -54,10 +54,31 @@
 .section-one{
 display: flex;
 align-items: center;
-padding: 50px;
+justify-content: space-between;
+padding: 200px 250px 250px;
 }
 
+.section-one img{
+  width: 451px;
+height: 500px;
+}
+
+.section-content{
+  margin-left: 80px;
+}
+.content-heading{
+  font-weight: 700;
+  margin-bottom: 20px;
+}
 .content-paragraph{
     color: #444343;
     font-size: 16px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    line-height: 25px;
+}
+
+.section-content > ul li{
+  list-style: none;
+  padding: 5px;
 }
