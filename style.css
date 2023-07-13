@@ -68,7 +68,7 @@ height: 500px;
 }
 .content-heading{
   font-weight: 700;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 }
 .content-paragraph{
     color: #444343;
